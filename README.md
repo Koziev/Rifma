@@ -1,6 +1,6 @@
 # RIFMA: A Dataset for Russian Poetry with Accentuation Annotations
 
-The `RIFMA` dataset consists of approximately 3598 fragments of Russian-language poems (stanzas and poems)
+The `RIFMA` dataset consists of approximately [3598](poetry_aligner_tests.md) fragments of Russian-language poems (stanzas and poems)
 with stress marks and a rhyme scheme information. Fragments are taken from poems of different genres,
 forms and authored by different poets, to ensure the widest possible coverage.
 
@@ -14,10 +14,12 @@ and we decided to publish it under an open license for the NLP community.
 
 The dataset is a list of tuples each containing the following fields:
 
-`poem_text` - the poem plain text.
-`accentuation_markup` - the poem text with accentuation using \u0301 for primary stress positions and \u0302 for secondary ones.
+`poem_text` - the poem plain text.  
+
+`accentuation_markup` - the poem text with accentuation using \u0301 for primary stress positions and \u0302 for secondary ones.  
+
 `rhyme_scheme` - rhyme sceme information. `null` if not assigned, `ABAB` for the case when the first line
-rhymes with the third, and the second with the fourth, and so on.
+rhymes with the third, and the second with the fourth, and so on.  
 
 
 ### Statistics
