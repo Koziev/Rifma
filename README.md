@@ -9,6 +9,9 @@ The initial purpose of this dataset was to automatically check the correctness o
 Then it turned out that there are no similar datasets for the Russian language,
 and we decided to publish it under an open license for the NLP community.
 
+### Dataset file
+
+[rifma_dataset.json](rifma_dataset.json)
 
 ### Structure of dataset
 
