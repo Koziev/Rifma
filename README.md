@@ -5,7 +5,7 @@ with stress marks and a rhyme scheme information. Fragments are taken from poems
 forms and authored by different poets, to ensure the widest possible coverage.
 
 This dataset is a supplementary material for our paper [Automated Evaluation of Meter and Rhyme in Russian Generative Poetry](link).
-The initial purpose of this dataset was to automatically check the correctness of the Russian Poetry Scansion Tool library.
+The initial purpose of this dataset was to automatically check the correctness of the [Russian Poetry Scansion Tool library](https://huggingface.co/inkoziev/RussianPoetryScansionTool).
 Then it turned out that there are no similar datasets for the Russian language,
 and we decided to publish it under an open license for the NLP community.
 
