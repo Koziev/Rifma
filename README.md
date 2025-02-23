@@ -1,13 +1,15 @@
 # RIFMA: A Dataset for Russian Poetry with Accentuation Annotations
 
-The `RIFMA` dataset consists of approximately [3598](poetry_aligner_tests.md) fragments of Russian-language poems (stanzas and poems)
+The `RIFMA` dataset consists of approximately [3,598](poetry_aligner_tests.md) fragments of Russian-language poems (stanzas and poems)
 with stress marks and a rhyme scheme information. Fragments are taken from poems of different genres,
 forms and authored by different poets, to ensure the widest possible coverage.
 
 This dataset is a supplementary material for our paper [Automated Evaluation of Meter and Rhyme in Russian Generative Poetry](link).
-The initial purpose of this dataset was to automatically check the correctness of the [Russian Poetry Scansion Tool library](https://huggingface.co/inkoziev/RussianPoetryScansionTool).
-Then it turned out that there are no similar datasets for the Russian language,
-and we decided to publish it under an open license for the NLP community.
+
+This dataset was initially created to validate the [Russian Poetry Scansion Tool library](https://huggingface.co/inkoziev/RussianPoetryScansionTool).
+Recognizing the lack of similar resources for Russian poetry, we have made it publicly available under an open license
+to support research in natural language processing (NLP) and computational poetry analysis.
+
 
 ### Dataset file
 
@@ -15,14 +17,14 @@ and we decided to publish it under an open license for the NLP community.
 
 ### Structure of dataset
 
-The dataset is a list of tuples each containing the following fields:
+Each entry in the dataset is a tuple with the following fields:
 
-`poem_text` - the poem plain text.  
+`poem_text` - The poem plain text.  
 
-`accentuation_markup` - the poem text with accentuation using \u0301 for primary stress positions and \u0302 for secondary ones.  
+`accentuation_markup` - The poem text with stress annotations. Primary stresses are marked with \u0301, and secondary stresses with \u0302.  
 
-`rhyme_scheme` - rhyme sceme information. `null` if not assigned, `ABAB` for the case when the first line
-rhymes with the third, and the second with the fourth, and so on.  
+`rhyme_scheme` - The rhyme scheme of the poem. If not applicable, this field is null.
+Common patterns include `ABAB` (where the first line rhymes with the third, and the second with the fourth).
 
 
 ### Statistics
