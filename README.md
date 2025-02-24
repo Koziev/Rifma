@@ -30,7 +30,7 @@ Each entry in the dataset is a tuple with the following fields:
 
 `poem_text` - The poem plain text.  
 
-`accentuation_markup` - The poem text with stress annotations. Primary stresses are marked with `\u0301`, and secondary stresses with `\u0302`.
+`accentuation_markup` - The poem text with stress annotations. Primary stresses are marked with `\u0301`, and secondary stresses with `\u0302`, as in example: `И сло̀вони́тью сде́лайте окно́`.
 
 `rhyme_scheme` - The rhyme scheme of the poem. If not applicable, this field is null.
 Common patterns include `ABAB` (where the first line rhymes with the third, and the second with the fourth).
