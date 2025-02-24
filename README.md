@@ -4,6 +4,15 @@ The `RIFMA` dataset consists of approximately [3,598](poetry_aligner_tests.md) f
 with stress marks and a rhyme scheme information. Fragments are taken from poems of different genres,
 forms and authored by different poets, to ensure the widest possible coverage.
 
+An example of poem accentuation is as follows:
+
+```
+За́йку бро́сила хозя́йка —
+Под дождё́м оста́лся за́йка.
+Со скаме́йки сле́зть не мо́г,
+Ве́сь до ни́точки промо́к.
+```
+
 This dataset is a supplementary material for our paper [Automated Evaluation of Meter and Rhyme in Russian Generative Poetry](link).
 
 This dataset was initially created to validate the [Russian Poetry Scansion Tool library](https://huggingface.co/inkoziev/RussianPoetryScansionTool).
@@ -21,7 +30,7 @@ Each entry in the dataset is a tuple with the following fields:
 
 `poem_text` - The poem plain text.  
 
-`accentuation_markup` - The poem text with stress annotations. Primary stresses are marked with \u0301, and secondary stresses with \u0302.  
+`accentuation_markup` - The poem text with stress annotations. Primary stresses are marked with `\u0301`, and secondary stresses with `\u0302`.
 
 `rhyme_scheme` - The rhyme scheme of the poem. If not applicable, this field is null.
 Common patterns include `ABAB` (where the first line rhymes with the third, and the second with the fourth).
