@@ -40,3 +40,7 @@ Common patterns include `ABAB` (where the first line rhymes with the third, and 
 
 Some information is presented in [automatically generated report file](poetry_aligner_tests.md).
 
+### Additional Resources
+
+[Ars Poetica](https://huggingface.co/datasets/inkoziev/ArsPoetica) is a dataset comprising Russian-language syllabo-tonic poetry with stress placement performed by [Russian Poetry Scansion Tool](https://github.com/Koziev/RussianPoetryScansionTool).
+
