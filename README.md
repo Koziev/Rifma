@@ -15,7 +15,7 @@ An example of poem accentuation is as follows:
 
 This dataset is a supplementary material for our paper [Automated Evaluation of Meter and Rhyme in Russian Generative Poetry](link).
 
-This dataset was initially created to validate the [Russian Poetry Scansion Tool library](https://huggingface.co/inkoziev/RussianPoetryScansionTool).
+This dataset was initially created to validate the [Russian Poetry Scansion Tool](https://github.com/Koziev/RussianPoetryScansionTool).
 Recognizing the lack of similar resources for Russian poetry, we have made it publicly available under an open license
 to support research in natural language processing (NLP) and computational poetry analysis.
 
