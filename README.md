@@ -13,7 +13,7 @@ An example of poem accentuation is as follows:
 Ве́сь до ни́точки промо́к.
 ```
 
-This dataset is a supplementary material for our paper [Automated Evaluation of Meter and Rhyme in Russian Generative Poetry](link).
+This dataset is a supplementary material for our paper [Automated Evaluation of Meter and Rhyme in Russian Generative Poetry](https://arxiv.org/abs/2502.20931).
 
 This dataset was initially created to validate the [Russian Poetry Scansion Tool](https://github.com/Koziev/RussianPoetryScansionTool).
 Recognizing the lack of similar resources for Russian poetry, we have made it publicly available under an open license
@@ -43,4 +43,19 @@ Some information is presented in [automatically generated report file](poetry_al
 ### Additional Resources
 
 [Ars Poetica](https://huggingface.co/datasets/inkoziev/ArsPoetica) is a dataset comprising Russian-language syllabo-tonic poetry with stress placement performed by [Russian Poetry Scansion Tool](https://github.com/Koziev/RussianPoetryScansionTool).
+
+
+## Citation
+
+If you use this dataset in your research or projects, please cite it as follows:
+
+@misc{koziev2025automatedevaluationmeterrhyme,
+      title={Automated Evaluation of Meter and Rhyme in Russian Generative and Human-Authored Poetry},
+      author={Ilya Koziev},
+      year={2025},
+      eprint={2502.20931},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.20931},
+}
 
