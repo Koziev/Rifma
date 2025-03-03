@@ -1,4 +1,4 @@
-# RIFMA: A Dataset for Russian Poetry with Accentuation Annotations
+# RIFMA: A Dataset of Russian Poetry with Accentuation Annotations
 
 The `RIFMA` dataset consists of approximately [3,598](poetry_aligner_tests.md) fragments of Russian-language poems (stanzas and poems)
 with stress marks and a rhyme scheme information. Fragments are taken from poems of different genres,
@@ -45,7 +45,7 @@ Some information is presented in [automatically generated report file](poetry_al
 [Ars Poetica](https://huggingface.co/datasets/inkoziev/ArsPoetica) is a dataset comprising Russian-language syllabo-tonic poetry with stress placement performed by [Russian Poetry Scansion Tool](https://github.com/Koziev/RussianPoetryScansionTool).
 
 
-## Citation
+### Citation
 
 If you use this dataset in your research or projects, please cite it as follows:
 
