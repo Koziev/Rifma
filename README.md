@@ -49,6 +49,7 @@ Some information is presented in [automatically generated report file](poetry_al
 
 If you use this dataset in your research or projects, please cite it as follows:
 
+```
 @misc{koziev2025automatedevaluationmeterrhyme,
       title={Automated Evaluation of Meter and Rhyme in Russian Generative and Human-Authored Poetry},
       author={Ilya Koziev},
@@ -58,4 +59,4 @@ If you use this dataset in your research or projects, please cite it as follows:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2502.20931},
 }
-
+```
