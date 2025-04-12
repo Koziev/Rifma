@@ -1,6 +1,6 @@
 # RIFMA: A Dataset of Russian Poetry with Accentuation Annotations
 
-![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15160293.svg)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15202823.svg)
 
 The `RIFMA` dataset consists of approximately [3,751](poetry_aligner_tests.md) fragments of Russian-language poems (stanzas and poems)
 with stress marks and a rhyme scheme information. Fragments are taken from poems of different genres,
