@@ -35,6 +35,20 @@ Each entry in the dataset is a tuple with the following fields:
 `rhyme_scheme` - The rhyme scheme of the poem. If not applicable, this field is null.
 Common patterns include `ABAB` (where the first line rhymes with the third, and the second with the fourth).
 
+### Rhyme Scheme Format
+
+When using this poetry dataset, please note our unique rhyme scheme encoding approach:
+
+- **Non-rhyming lines** are marked with hyphens (`-`) rather than unique letters  
+
+#### Examples:
+
+| Conventional | Our Notation |
+|--------------|--------------|
+| `ABCA`       | `A--A`       |
+| `ABAC`       | `A-A-`       |
+| `AABB`       | `AABB`       |
+
 
 ### Statistics
 
