@@ -24,6 +24,7 @@ to support research in natural language processing (NLP) and computational poetr
 
 [rifma_dataset.json](rifma_dataset.json)
 
+
 ### Structure of dataset
 
 Each entry in the dataset is a tuple with the following fields:
@@ -34,6 +35,7 @@ Each entry in the dataset is a tuple with the following fields:
 
 `rhyme_scheme` - The rhyme scheme of the poem. If not applicable, this field is null.
 Common patterns include `ABAB` (where the first line rhymes with the third, and the second with the fourth).
+
 
 ### Rhyme Scheme Format
 
@@ -53,6 +55,19 @@ When using this poetry dataset, please note our unique rhyme scheme encoding app
 ### Statistics
 
 Some information is presented in [automatically generated report file](poetry_aligner_tests.md).
+
+
+## Content Note
+
+This dataset intentionally includes:
+
+- Non-professional poetry
+- Meter deviations
+- Grammatical errors
+- Other imperfections
+
+Its purpose is to test poetry analysis tools under realistic conditions, including edge cases and defects.
+
 
 ### Additional Resources
 
