@@ -57,7 +57,7 @@ When using this poetry dataset, please note our unique rhyme scheme encoding app
 Some information is presented in [automatically generated report file](poetry_aligner_tests.md).
 
 
-## Content Note
+### Content Note
 
 This dataset intentionally includes:
 
